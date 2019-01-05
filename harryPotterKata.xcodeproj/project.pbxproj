@@ -98,14 +98,46 @@
 		24E2E24721E0BB9100B68D75 /* harryPotterKataTests */ = {
 			isa = PBXGroup;
 			children = (
-				24E2E24821E0BB9100B68D75 /* AcceptanceTests.swift */,
-				24E2E25B21E0C5DE00B68D75 /* HelperCalculator.swift */,
-				24E2E24A21E0BB9100B68D75 /* Info.plist */,
-				24E2E25921E0C05B00B68D75 /* ShoppingCartTest.swift */,
+				24E2E26021E0C64E00B68D75 /* Supporting Files */,
+				24E2E25F21E0C64300B68D75 /* Acceptance Tests */,
+				24E2E25E21E0C63800B68D75 /* Unit Tests */,
+				24E2E25D21E0C62F00B68D75 /* Domain */,
+			);
+			path = harryPotterKataTests;
+			sourceTree = "<group>";
+		};
+		24E2E25D21E0C62F00B68D75 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
 				24E2E25521E0BFFC00B68D75 /* ShoppingCart.swift */,
 				24E2E25721E0C00D00B68D75 /* Book.swift */,
 			);
-			path = harryPotterKataTests;
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		24E2E25E21E0C63800B68D75 /* Unit Tests */ = {
+			isa = PBXGroup;
+			children = (
+				24E2E25921E0C05B00B68D75 /* ShoppingCartTest.swift */,
+			);
+			path = "Unit Tests";
+			sourceTree = "<group>";
+		};
+		24E2E25F21E0C64300B68D75 /* Acceptance Tests */ = {
+			isa = PBXGroup;
+			children = (
+				24E2E24821E0BB9100B68D75 /* AcceptanceTests.swift */,
+				24E2E25B21E0C5DE00B68D75 /* HelperCalculator.swift */,
+			);
+			path = "Acceptance Tests";
+			sourceTree = "<group>";
+		};
+		24E2E26021E0C64E00B68D75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24E2E24A21E0BB9100B68D75 /* Info.plist */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -415,7 +447,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4C34FT6ABU;
-				INFOPLIST_FILE = harryPotterKataTests/Info.plist;
+				INFOPLIST_FILE = "harryPotterKataTests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -436,7 +468,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4C34FT6ABU;
-				INFOPLIST_FILE = harryPotterKataTests/Info.plist;
+				INFOPLIST_FILE = "harryPotterKataTests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
