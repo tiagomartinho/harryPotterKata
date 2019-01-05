@@ -16,6 +16,7 @@
 		24E2E25621E0BFFC00B68D75 /* ShoppingCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E2E25521E0BFFC00B68D75 /* ShoppingCart.swift */; };
 		24E2E25821E0C00D00B68D75 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E2E25721E0C00D00B68D75 /* Book.swift */; };
 		24E2E25A21E0C05B00B68D75 /* ShoppingCartTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E2E25921E0C05B00B68D75 /* ShoppingCartTest.swift */; };
+		24E2E25C21E0C5DE00B68D75 /* HelperCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E2E25B21E0C5DE00B68D75 /* HelperCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		24E2E25521E0BFFC00B68D75 /* ShoppingCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCart.swift; sourceTree = "<group>"; };
 		24E2E25721E0C00D00B68D75 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		24E2E25921E0C05B00B68D75 /* ShoppingCartTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartTest.swift; sourceTree = "<group>"; };
+		24E2E25B21E0C5DE00B68D75 /* HelperCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				24E2E24821E0BB9100B68D75 /* AcceptanceTests.swift */,
+				24E2E25B21E0C5DE00B68D75 /* HelperCalculator.swift */,
 				24E2E24A21E0BB9100B68D75 /* Info.plist */,
 				24E2E25921E0C05B00B68D75 /* ShoppingCartTest.swift */,
 				24E2E25521E0BFFC00B68D75 /* ShoppingCart.swift */,
@@ -218,6 +221,7 @@
 				24E2E24921E0BB9100B68D75 /* AcceptanceTests.swift in Sources */,
 				24E2E25621E0BFFC00B68D75 /* ShoppingCart.swift in Sources */,
 				24E2E25821E0C00D00B68D75 /* Book.swift in Sources */,
+				24E2E25C21E0C5DE00B68D75 /* HelperCalculator.swift in Sources */,
 				24E2E25A21E0C05B00B68D75 /* ShoppingCartTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
